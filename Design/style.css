@@ -1,0 +1,99 @@
+body{
+    min-width: 1921px;
+    overflow: auto;
+}
+header{
+    background-image:url(assets/backgrounds/h_img.jpg);
+    height: 1050px;
+    width: 100%;
+}
+
+h1.dilani{
+    font-size: 77px;
+    color: white;
+}
+p.dilani_info{
+    color: white;
+    font-size: 31px;
+
+}
+section{
+    height:400px;
+}
+
+section.about{
+    background-color: azure;
+    height:658px;
+    padding-top: 177px
+}
+section.services{
+    background-image: url(assets/backgrounds/s_image.jpg);
+    height: 488px;
+    /* padding-top: 58px; */
+}
+div.service_text{
+    color: white;
+    text-align: center;
+    padding-top: 58px;
+}
+section.they_do{
+    background-color: gainsboro;
+    height:1300px;
+}
+div.we_do{
+    padding-top: 134px;
+}
+
+div.deed{
+    padding-top: 30px;
+}
+
+div.doing_image h1{
+    padding-top: 30px;
+}
+/* section.portfolio{
+    height: 300px;
+} */
+div.demo_images{
+    height:320px;
+    width: 50px;
+}
+
+section.contact{
+    background-image: url(assets/backgrounds/c_image.jpg);
+    height: 683px;
+}
+div.us{
+    padding-top: 30px;
+    color: white;
+}
+div.name_email{
+    margin-top: 50px; 
+}
+input.email_name{
+    background-color: rgba(0,0,0,.075);
+    border-width: 4px;
+    border-radius: 0px;
+    border-color: white;
+}
+
+textarea.message{
+    height:300px! important;
+    background-color: rgba(0,0,0,.075);
+    margin-top: 30px;
+    border-width: 4px;
+    border-radius: 0px;
+    border-color: white;
+}
+footer{
+    height: 341px;
+    color: gainsboro;
+}
+div.social{
+    padding-top: 30px;
+}
+p.rights{
+    padding-top: 138px;
+    color: black;
+    text-align: center;
+}
