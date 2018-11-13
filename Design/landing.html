@@ -9,50 +9,51 @@
 </head>
 <body>
     <header class="container-fluid ">
-        <!-- logo -->
-        <div class="row justify-content-center info ">
-            <img src="assets/logo/logo.png">
-        </div>
+        <div class="info">
+              <!-- logo -->
+            <div class="row justify-content-center info ">
+                <img src="assets/logo/logo.png">
+            </div>
         <!-- text -->
-        <div class="row justify-content-center ">
-            <h1 class ="dilani">
-                WELCOME
-             TO DILANI STUDIOS
-            </h1>
-        <div class="row justify-content-center d">
-            <p class="dilani_info">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        </div>
+            <div class="row justify-content-center">
+                <h1 class ="dilani">
+                WELCOME <br>
+                TO DILANI STUDIOS
+                </h1>
+            </div>
+            <div class="row justify-content-center">
+                <p class="dilani_info">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            </div>
 
-        </div>
         <!-- mouse icon -->
-        <div class="row justify-content-center">
-            <img src="assets/mouse_click.png">
+            <div class="row justify-content-center m_icon">
+                <img src="assets/mouse_click.png">
+            </div>
         </div>
     </header>
     <!-- about us -->
     <section class= "container-fluid about">
-        
-        <div class="row justify-content-center">
-            <h1>ABOUT US</h1>
+
+        <div class="row justify-content-center about_rows">
+            <h1 >ABOUT US</h1>
         </div>
-        <div class="row justify-content-center">
-            <P>When you work with us,you are part of a team of commited collaborators.<br>
-                All aspects of our software development process are intergrated, iterative and agile.
-            </P>
+        <div class="row justify-content-center center about_rows">
+            <P class="about">When you work with us,<br>you are part of a team of commited collaborators.<br>
+            All aspects of our software development process are intergrated, iterative and agile.</P>
         </div>
-        <div class="row justify-content-center">
-            <p>Our approach inifies design, development and<br>
-                product management to create exceptional products.<br>
-                start each project by understanding your business goals,<br>
-                the user's needs and the product requirement.<br>
-                then we help translate them inti effective and elegant solutions
+        <div class="row justify-content-center center about_rows">
+            <p class="about">Our approach inifies design, development and<br>
+            product management to create exceptional products.<br>
+            start each project by understanding your business goals,<br>
+            the user's needs and the product requirement.<br>
+            then we help translate them inti effective and elegant solutions
             </p>
         </div>
     </section>
     <!-- services -->
     <section class="container-fluid services">
         <div class="row justify-content-center service_text">
-            <h1>SERVICES</h1>
+            <h1 class="services">SERVICES</h1>
         </div>
         <div class="row justify-content-center service_text">
             <p>Before we sign a contract or write a line of code our team will spend the necessary<br>
@@ -63,42 +64,65 @@
         </div>
     </section>
     <!-- what we do -->
-    <section class="container-fluid they_do">
+    <section class="container-fluid we_do">
         <div class="row justify-content-center we_do">
             <h1>WHAT WE DO</h1>
         </div>
-        <!-- things they do row -->
-        <div class="row deed">
+        <!-- we do images row-->
+        <div class="row we_do">
             <!-- design -->
-            <div class="col-sm-3 offset-sm-1 doing_image">
+            <div class="col-sm-3 offset-sm-1 ">
                 <img src="assets/services_icons/design_icon.png">
-                <h2>DESIGN</h2>
-                <p>
-                    Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing.
-                    Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed
-                </p>
-
             </div>
             <!-- development -->
-            <div class="col-sm-3 offset-sm-1 doing_image">
+            <div class="col-sm-3 offset-sm-1">
                 <img src="assets/services_icons/dev_icon.png">
-                <h2>DEVELOPMENT</h2>
-                <P>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming</P>
             </div>
             <!-- product management  -->
-            <div class="col-sm-3 offset-sm-1 doing_image">
+            <div class="col-sm-3 offset-sm-1">
                 <img src="assets/services_icons/product_icon.png">
-                <h2> PRODUCT MANAGEMENT</h2>
-                    <p>Planning and development is iterative.Becaue we are constantly coding and testing , the products we build are alwas readt to go live.This iterative process allows for changes as business requirements evolve</p>
-
+            </div>
+        </div>
+            <!-- we_do_text row -->
+        <div class="row we_do_text">
+            <div class="col-sm-4 ">
+                <div class="row justify-content-center we_do_design">
+                    <h2 class="we_do">DESIGN</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="we_do">
+                Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing.
+                Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="row justify-content-center we_do_design">
+                    <h2 class="we_do">DEVELOPMENT</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="we_do">
+                All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="row justify-content-center we_do_design">
+                    <h2 class="we_do">PRODUCT MANAGEMENT</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="we_do">
+                Planning and development is iterative.Becaue we are constantly coding and testing , the products we build are alwas readt to go live.This iterative process allows for changes as business requirements evolve
+                    </p>
+                </div>
             </div>
         </div>
     <!-- </section> -->
 
     <!-- portfolio -->
-    <!-- <section class="container-fluid portfolio"> -->
+
         <!-- first row -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center we_do_design">
             <h1>PORTFOLIO</h1>
         </div>
         <div class="row justify-content-center">
@@ -132,6 +156,7 @@
         </div>
     </section>
 
+
     <!-- contact us -->
     <section class="container-fluid contact">
         <!-- first row -->
@@ -154,7 +179,7 @@
                     <textarea class="form-control message" id="your message" placeholder="Your message"></textarea>
             </div>
         </div>
-            
+
         </div>
         </form>
     </section>
