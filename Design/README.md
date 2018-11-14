@@ -12,4 +12,4 @@
 
 ## view the design
     click to view github pages:
-    [Delani]()
+    [Delani](https://naibor.github.io/Delani/)
