@@ -45,6 +45,12 @@ div.row.about_rows{
 p.about{
     text-align: center;
 }
+div.a_mouse{
+    margin-top: 140px;
+}
+div.p_mouse{
+margin-top: 140px;
+}
 section.services{
     background-image: url(assets/backgrounds/s_image.jpg);
     height: 488px;
